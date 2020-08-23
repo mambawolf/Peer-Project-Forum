@@ -13,6 +13,24 @@
     <h3 style="font-family: sans-serif">Wish to get a partner for co-learning and project? Get Started Here.</h3>
     <br>
 </header>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form" id="reg-form" method="GET" action="postOrSearch.html">
+
+                <input type="text" required placeholder="Username" id="username" name="username" />
+                <input type="email" required placeholder="Email Address" id="email" name="email" />
+                <input type="password" required placeholder="Password" id="password" name="password" />
+                <input type="password" required placeholder="Confirm Password" id="confirm-password"
+                    name="confirmPassword" />
+
+                <button type="submit">Create</button>
+                <p class="message">Already have an Account? <a href="login.html">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+</body>
 <script defer>
     let email = document.getElementById('email')
 let password = document.getElementById('password')
@@ -45,24 +63,6 @@ form.addEventListener('submit', (e) => {
     }
 })
     </script>
-<body>
-    <div class="login-page">
-        <div class="form">
-            <form class="login-form" id="reg-form" method="GET" action="postOrSearch.html">
-
-                <input type="text" required placeholder="Username" id="username" name="username" />
-                <input type="email" required placeholder="Email Address" id="email" name="email" />
-                <input type="password" required placeholder="Password" id="password" name="password" />
-                <input type="password" required placeholder="Confirm Password" id="confirm-password"
-                    name="confirmPassword" />
-
-                <button type="submit">Create</button>
-                <p class="message">Already have an Account? <a href="login.html">Sign In</a></p>
-            </form>
-        </div>
-    </div>
-</body>
-
 <footer class="footere">
     <p>Developed by 304 | 318 | 358</p>
 </footer>
