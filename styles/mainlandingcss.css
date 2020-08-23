@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url(../Images/landing.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    max-width: auto;
+}
+
+.start{
+    color: white;
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    justify-content: center;
+}
+
+.but{
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.description{
+    color: gray;
+    text-align: center;
+    justify-content: center;
+}
