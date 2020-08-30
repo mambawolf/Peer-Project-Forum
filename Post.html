@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PeerProj</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Poststyle.css">
+</head>
+<header>
+    <img src="Images/Headeras.png" width="100%" height="92">
+    <h1 style="font-family: sans-serif">POST A PROJECT</h1>
+    <br>
+    <h3 style="font-family: sans-serif">Fill all the required details below to post the project</h3>
+    <br>
+</header>
+<body> 
+    <form style="font-family:serif">  
+     <fieldset class="fieldse" style="text-align: center">  
+        <legend>Fill the Project Details</legend>  
+        
+        <label>Student Name</label><br>  
+        <input type="text" name="name"><br>
+        
+        <br>
+         
+        <label>Enter your email</label><br>  
+        <input type="email" name="email"><br>
+         
+        <br><label>What's your gender?</label><br>  
+        <br>
+            <input type="radio" id="gender" name="gender" value="male"/>Male    
+            <input type="radio" id="gender" name="gender" value="female"/>Female     
+            <input type="radio" id="gender" name="gender" value="others"/>Not willing to specify <br/>
+        
+        <br><label>Skills Level</label><br>  
+        <br>    
+            <input type="radio" id="skilllevel" name="skilllevel" value="Begineer"/>Begineer    
+            <input type="radio" id="skilllevel" name="skilllevel" value="Intermediate"/>Intermediate    
+            <input type="radio" id="skilllevel" name="skilllevel" value="Professional"/>Professional <br/>
+        
+        <br>
+         
+        <label for="Domain">Choose a domain:</label>
+         <select name="Domain" id="domain">
+            <option value="Web Development">Web Development</option>
+            <option value="saab">Android App Development</option>
+            <option value="BlockChain">BlockChain</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="IOT">IOT</option>
+            <option value="Data Analytics">Data Analytics</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Machine Learning">Machine Learning</option>
+            <option value="AR/VR">AR/VR</option>
+            <option value="Game Development">Game Developmet</option>   
+         </select>
+         
+        <br>
+        <br>
+        <label>Project Title</label><br>  
+         
+        <input type="text" name="name"><br>  
+         
+        <br>Project Description:<br>  
+        <textarea></textarea><br>
+         
+        <br> 
+         
+        <input type="submit" value="Post the Project">  
+        
+        <br>
+         
+     </fieldset>  
+  </form>  
+</body>   
+<script src="script.js"></script>
+    <footer class="footere">
+        <p>Developed by 304 | 318 | 358</p>
+    </footer>
+</html>
