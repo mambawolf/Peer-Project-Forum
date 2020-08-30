@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#282828;
+    color: white;
+    background-image: url(../Images/postbg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    max-width: auto;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+header h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+.fieldse{
+    background-color: black;
+    border-color: blueviolet;
+    border-radius: 15px;
+    padding:1%;
+    display: inline-block;
+    align-content: center;
+    margin: 0px 600px 0px 600px;
+}
+
+.footere{
+    position: fixed;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0rem;
+    width: 100%;
+    background-color: #252770;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    height: 5vh;
+}
